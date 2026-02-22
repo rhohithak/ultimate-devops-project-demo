@@ -3,11 +3,9 @@
 name: product-catalog-ci
 
 on: 
-    pull_request:
-        branches:
-        - main
+    
     workflow_dispatch:
-    push:
+
 jobs:
     build:
         runs-on: ubuntu-latest
